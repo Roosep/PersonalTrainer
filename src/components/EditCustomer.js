@@ -54,7 +54,7 @@ const [customer, setCustomer] = useState({
         <DialogContent>
           <TextField
                name="firstname"
-               brand={customer.firstname}
+               value={customer.firstname}
                onChange={inputChanged}
                margin="dense"
                id="name"
@@ -64,7 +64,7 @@ const [customer, setCustomer] = useState({
              />
               <TextField
                name="lastname"
-               brand={customer.lastname}
+               value={customer.lastname}
                onChange={inputChanged}
                margin="dense"
                id="name"
@@ -74,7 +74,7 @@ const [customer, setCustomer] = useState({
              />
               <TextField
                name="streetaddress"
-               brand={customer.streetaddress}
+               value={customer.streetaddress}
                onChange={inputChanged}
                margin="dense"
                id="name"
@@ -84,7 +84,7 @@ const [customer, setCustomer] = useState({
              />
               <TextField
                name="postcode"
-               brand={customer.postcode}
+               value={customer.postcode}
                onChange={inputChanged}
                margin="dense"
                id="name"
@@ -94,7 +94,7 @@ const [customer, setCustomer] = useState({
              />
               <TextField
                name="city"
-               brand={customer.city}
+               value={customer.city}
                onChange={inputChanged}
                margin="dense"
                id="name"
@@ -104,7 +104,7 @@ const [customer, setCustomer] = useState({
              />
               <TextField
                name="email"
-               brand={customer.email}
+               value={customer.email}
                onChange={inputChanged}
                margin="dense"
                id="name"
@@ -114,7 +114,7 @@ const [customer, setCustomer] = useState({
              />
              <TextField
                name="phone"
-               brand={customer.phone}
+               value={customer.phone}
                onChange={inputChanged}
                margin="dense"
                id="name"
